@@ -11,7 +11,9 @@ public class Test {
 
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/core/springadvanced/stereotype/annotations/config.xml");
 		Instructor instructor= (Instructor) context.getBean("instructor");
+		Instructor instructor1= (Instructor) context.getBean("instructor");
 		System.out.println(instructor);
+		System.out.println(instructor1);
 		
 		
 	}
