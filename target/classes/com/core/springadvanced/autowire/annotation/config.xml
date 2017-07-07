@@ -12,6 +12,9 @@
    <bean name="address" class="com.core.springadvanced.autowire.annotation.Address" p:country="india" p:state="AP" p:village="hyd"> 
    
    </bean>
+   <bean name="address123" class="com.core.springadvanced.autowire.annotation.Address" p:country="USA" p:state="AP" p:village="hyd"> 
+   
+   </bean>
    <bean name="student" class="com.core.springadvanced.autowire.annotation.Student"></bean>
        
         
