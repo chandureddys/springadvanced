@@ -1,4 +1,6 @@
-package com.core.springadvanced.autowire;
+package com.core.springadvanced.autowire.annotation;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class Student {
 	
@@ -11,11 +13,12 @@ public class Student {
 		super();
 		this.address = address;
 	}
-
+   
+	
 	public Address getAddress() {
 		return address;
 	}
-
+	@Autowired
 	public void setAddress(Address address) {
 		this.address = address;
 	}
